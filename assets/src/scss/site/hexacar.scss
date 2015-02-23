@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import "settings";
 @import "foundation";
+
 
 // Or selectively include components
 // @import
@@ -38,3 +40,22 @@
 //   "foundation/components/type",
 //   "foundation/components/offcanvas",
 //   "foundation/components/visibility";
+
+// a. Off-canvas
+.off-canvas-wrap{
+	.brand{
+		h2{
+			display:none;
+		}
+	}
+}
+
+// b. sections
+.page-section{
+	padding: 25px 0;
+	.page-section-title{
+		font-size: rem-calc(25);
+		font-weight: 300;
+		border-bottom: 1px solid $red800;
+	}
+}
