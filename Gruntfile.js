@@ -40,7 +40,7 @@ module.exports = function (grunt) {
     copy:{
       img:{
         expand: true,
-        cwd: 'assets/scr/img',
+        cwd: 'assets/src/img',
         src: '**',
         dest: 'assets/build/img'
       }
@@ -69,6 +69,13 @@ module.exports = function (grunt) {
           'assets/src/scss/**/*.scss'
         ],
         tasks: ['sass','cssmin'],
+        options: {
+          livereload: reloadPort
+        }
+      },
+      imgs: {
+        files: ['assets/src/img/*.*'],
+        tasks: ['copy'],
         options: {
           livereload: reloadPort
         }
@@ -104,6 +111,7 @@ module.exports = function (grunt) {
   grunt.registerTask('default', [
     'sass',
     'cssmin',
+    'copy',
     'develop',
     'watch'
   ]);
