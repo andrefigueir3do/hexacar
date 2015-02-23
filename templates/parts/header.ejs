@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title><%-title %></title>
+  <link rel="stylesheet" href="build/css/hexacar.min.css">
+  <script src="http://localhost:35729/livereload.js"></script>
+</head>
+<body>
+	<div class="off-canvas-wrap" data-offcanvas>
+	  <div class="inner-wrap">
+	    <nav class="tab-bar">
+	      <section class="left-small">
+	        <a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+	      </section>
+	    </nav>
+
+	    <aside class="left-off-canvas-menu">
+	      <ul class="off-canvas-list">
+	      	<% appdata.site.menu_items.forEach(function(item){ %>
+	      		<li><a href="<%= item.url %>"><%= item.name %></a></li>
+	      	<% }); %>
+	      </ul>
+	    </aside>
+
+	  <a class="exit-off-canvas"></a>

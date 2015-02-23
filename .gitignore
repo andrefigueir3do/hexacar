@@ -1,0 +1,4 @@
+node_modules/
+assets/components
+.sass-cache
+assets/build
