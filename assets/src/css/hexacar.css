@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700);
 meta.foundation-version {
   font-family: "/5.5.1/"; }
 
@@ -56,10 +57,10 @@ body {
 
 body {
   background: #fff;
-  color: #222;
+  color: #212121;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1157,7 +1158,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
         background: #e3e3e3; }
@@ -1581,7 +1582,7 @@ button, .button {
   border-style: solid;
   border-width: 0;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -2845,7 +2846,7 @@ select {
   border-color: #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3305,7 +3306,7 @@ kbd {
 
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -3688,7 +3689,7 @@ ul.pagination {
     color: #EEEEEE;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Roboto", sans-serif; }
   .pricing-table .price {
     background-color: #F6F6F6;
     padding: 0.9375rem 1.25rem;
@@ -3696,7 +3697,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Roboto", sans-serif; }
   .pricing-table .description {
     background-color: #FFFFFF;
     padding: 0.9375rem;
@@ -3945,7 +3946,7 @@ ul.pagination {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "Roboto", sans-serif; }
   .side-nav li {
     margin: 0 0 0.4375rem 0;
     font-size: 0.875rem;
@@ -3961,7 +3962,7 @@ ul.pagination {
     .side-nav li.active > a:first-child:not(.button) {
       color: #1cc7ff;
       font-weight: normal;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+      font-family: "Roboto", sans-serif; }
     .side-nav li.divider {
       border-top: 1px solid;
       height: 0;
@@ -4081,7 +4082,7 @@ ul.pagination {
     float: left;
     margin-left: 1rem;
     margin-bottom: 0;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -4269,7 +4270,7 @@ table {
       background-color: #EFEFEF;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 1rem; }
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
         background-color: #e1e1e1; }
@@ -4570,7 +4571,7 @@ meta.foundation-mq-topbar {
       color: #FFFFFF;
       padding: 12px 0 12px 0;
       padding-left: 0.9375rem;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Roboto", sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -5105,10 +5106,10 @@ p {
 
 /* Default header styles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: #212121;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -5234,7 +5235,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222;
+  color: #212121;
   cursor: help; }
 
 abbr {
@@ -5250,12 +5251,12 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: #545454; }
     blockquote cite:before {
       content: "\2014 \0020"; }
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: #545454; }
 
 blockquote,
 blockquote p {
@@ -5330,40 +5331,40 @@ blockquote p {
 
 .tab-bar {
   -webkit-backface-visibility: hidden;
-  background: #333333;
+  background: #C62828;
   color: #FFFFFF;
-  height: 2.8125rem;
-  line-height: 2.8125rem;
+  height: 3rem;
+  line-height: 3rem;
   position: relative; }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4, .tab-bar h5, .tab-bar h6 {
     color: #FFFFFF;
     font-weight: bold;
-    line-height: 2.8125rem;
+    line-height: 3rem;
     margin: 0; }
   .tab-bar h1, .tab-bar h2, .tab-bar h3, .tab-bar h4 {
     font-size: 1.125rem; }
 
 .left-small {
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3rem;
+  height: 3rem;
   position: absolute;
   top: 0;
-  border-right: solid 1px #1a1a1a;
+  border-right: none;
   left: 0; }
 
 .right-small {
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3rem;
+  height: 3rem;
   position: absolute;
   top: 0;
-  border-left: solid 1px #1a1a1a;
+  border-left: none;
   right: 0; }
 
 .tab-bar-section {
   padding: 0 0.625rem;
   position: absolute;
   text-align: center;
-  height: 2.8125rem;
+  height: 3rem;
   top: 0; }
   @media only screen and (min-width: 40.063em) {
     .tab-bar-section.left {
@@ -5372,18 +5373,18 @@ blockquote p {
       text-align: right; } }
   .tab-bar-section.left {
     left: 0;
-    right: 2.8125rem; }
+    right: 3rem; }
   .tab-bar-section.right {
-    left: 2.8125rem;
+    left: 3rem;
     right: 0; }
   .tab-bar-section.middle {
-    left: 2.8125rem;
-    right: 2.8125rem; }
+    left: 3rem;
+    right: 3rem; }
 
 .tab-bar .menu-icon {
   text-indent: 2.1875rem;
-  width: 2.8125rem;
-  height: 2.8125rem;
+  width: 3rem;
+  height: 3rem;
   display: block;
   padding: 0;
   color: #FFFFFF;
@@ -5396,7 +5397,7 @@ blockquote p {
     height: 0;
     top: 50%;
     margin-top: -0.5rem;
-    left: 0.90625rem;
+    left: 1rem;
     box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
     width: 1rem; }
   .tab-bar .menu-icon span:hover:after {
@@ -5404,7 +5405,7 @@ blockquote p {
 
 .left-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  width: 15.625rem;
+  width: 11.25rem;
   top: 0;
   bottom: 0;
   position: absolute;
@@ -5428,7 +5429,7 @@ blockquote p {
 
 .right-off-canvas-menu {
   -webkit-backface-visibility: hidden;
-  width: 15.625rem;
+  width: 11.25rem;
   top: 0;
   bottom: 0;
   position: absolute;
@@ -5472,15 +5473,15 @@ ul.off-canvas-list {
     border-bottom: 1px solid #262626;
     transition: background 300ms ease; }
     ul.off-canvas-list li a:hover {
-      background: #242424; }
+      background: #8b1c1c; }
 
 .move-right > .inner-wrap {
-  -ms-transform: translate(15.625rem, 0);
-  -webkit-transform: translate3d(15.625rem, 0, 0);
-  -moz-transform: translate3d(15.625rem, 0, 0);
-  -ms-transform: translate3d(15.625rem, 0, 0);
-  -o-transform: translate3d(15.625rem, 0, 0);
-  transform: translate3d(15.625rem, 0, 0); }
+  -ms-transform: translate(11.25rem, 0);
+  -webkit-transform: translate3d(11.25rem, 0, 0);
+  -moz-transform: translate3d(11.25rem, 0, 0);
+  -ms-transform: translate3d(11.25rem, 0, 0);
+  -o-transform: translate3d(11.25rem, 0, 0);
+  transform: translate3d(11.25rem, 0, 0); }
 .move-right .exit-off-canvas {
   -webkit-backface-visibility: hidden;
   transition: background 300ms ease;
@@ -5500,12 +5501,12 @@ ul.off-canvas-list {
       background: rgba(255, 255, 255, 0.05); } }
 
 .move-left > .inner-wrap {
-  -ms-transform: translate(-15.625rem, 0);
-  -webkit-transform: translate3d(-15.625rem, 0, 0);
-  -moz-transform: translate3d(-15.625rem, 0, 0);
-  -ms-transform: translate3d(-15.625rem, 0, 0);
-  -o-transform: translate3d(-15.625rem, 0, 0);
-  transform: translate3d(-15.625rem, 0, 0); }
+  -ms-transform: translate(-11.25rem, 0);
+  -webkit-transform: translate3d(-11.25rem, 0, 0);
+  -moz-transform: translate3d(-11.25rem, 0, 0);
+  -ms-transform: translate3d(-11.25rem, 0, 0);
+  -o-transform: translate3d(-11.25rem, 0, 0);
+  transform: translate3d(-11.25rem, 0, 0); }
 .move-left .exit-off-canvas {
   -webkit-backface-visibility: hidden;
   transition: background 300ms ease;
@@ -5600,17 +5601,17 @@ ul.off-canvas-list {
       background: rgba(255, 255, 255, 0.05); } }
 
 .no-csstransforms .left-off-canvas-menu {
-  left: -15.625rem; }
+  left: -11.25rem; }
 .no-csstransforms .right-off-canvas-menu {
-  right: -15.625rem; }
+  right: -11.25rem; }
 .no-csstransforms .move-left > .inner-wrap {
-  right: 15.625rem; }
+  right: 11.25rem; }
 .no-csstransforms .move-right > .inner-wrap {
-  left: 15.625rem; }
+  left: 11.25rem; }
 
 .left-submenu {
   -webkit-backface-visibility: hidden;
-  width: 15.625rem;
+  width: 11.25rem;
   top: 0;
   bottom: 0;
   position: absolute;
@@ -5662,7 +5663,7 @@ ul.off-canvas-list {
 
 .right-submenu {
   -webkit-backface-visibility: hidden;
-  width: 15.625rem;
+  width: 11.25rem;
   top: 0;
   bottom: 0;
   position: absolute;
@@ -6151,5 +6152,14 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+.off-canvas-wrap .brand h2 {
+  display: none; }
+
+.page-section {
+  padding: 25px 0; }
+  .page-section .page-section-title {
+    font-size: 1.5625rem;
+    font-weight: 300;
+    border-bottom: 1px solid #C62828; }
 
 /*# sourceMappingURL=hexacar.css.map */
